@@ -1,0 +1,75 @@
+body {
+margin: 0;
+    padding-top: 800px;
+
+}
+.tim{
+    width: 175px;
+    margin-bottom: 50x;
+    border-radius: 50%;
+}
+#welcome{
+position: absolute;
+    overflow: hidden;
+    height: 800px;
+    color: #FFFFFF;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    opacity: 0.83;
+    background: linear-gradient(#60ebeb 0%,#27ae60 100%);
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+h1{
+    font-size: 40px;
+    line-height: 1.2;
+    font-family: "Lato",sans-serif;
+    font-weight: 300;
+}
+#name{
+     font-size: 30px;
+    line-height: 1.2;
+    font-family: cursive;
+}
+h2{
+     font-size: 35px;
+    line-height: 1.2;
+    font-family: monospace;
+    font-weight: 300; 
+}
+#info{
+    padding: 40px;
+    text-align: center;
+    font-size: 42px;
+}
+.line{
+    height: 6px;
+    background-color: #000;
+    width: 70px;
+    margin: 8px auto;
+}
+.menu{
+position: absolute;
+list-style: none;
+    font-family: sans-serif;
+    top: 10px;
+    right:40px;
+    z-index: 10px;
+    cursor: pointer;
+}
+.link{
+font-family: fantasy;
+    float: left;
+    font-size: 30px;
+    color:darkcyan;
+    padding-top:5px;
+    padding-left: 9px;
+    padding-bottom: 5px;
+    padding-right: 9px;
+}
+.link:hover{
+    background-color:deepskyblue;
+}
